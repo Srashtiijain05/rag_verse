@@ -6,6 +6,7 @@ export interface IUserSettings extends Document {
   supabaseUrl?: string;
   supabaseAnonKey?: string;
   supabaseServiceKey?: string;
+  projectName?: string;  // ← add karo
   updatedAt: Date;
 }
 
@@ -15,6 +16,7 @@ const UserSettingsSchema: Schema<IUserSettings> = new Schema({
   supabaseUrl: { type: String },
   supabaseAnonKey: { type: String },
   supabaseServiceKey: { type: String },
+  projectName: { type: String },  // ← add karo
   updatedAt: { type: Date, default: Date.now },
 });
 

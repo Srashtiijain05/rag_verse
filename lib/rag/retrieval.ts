@@ -6,12 +6,12 @@
  */
 
 export interface RetrievalResult {
+  id: string;
   content: string;
   similarity: number;
   relevanceScore?: number;
   metadata?: Record<string, any>;
 }
-
 export interface ExpandedQuery {
   original: string;
   expansions: string[];

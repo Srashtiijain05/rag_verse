@@ -1,6 +1,6 @@
 {
   "node": {
-    "4067b8319301e685aa03a8fab1da1bc076c6fdadc0": {
+    "40d074076623a22a014780de90d837fd82903cc6e5": {
       "workers": {
         "app/(dashboard)/projects/page": {
           "moduleId": 37297,
@@ -12,7 +12,7 @@
       "exportedName": "createProject",
       "filename": "app/(dashboard)/projects/actions.ts"
     },
-    "40b971cde3eb1b0d0007b9ff86abf9760f0b621fad": {
+    "406a75b2a8762d51a93814c55d021f3dabf1b98eeb": {
       "workers": {
         "app/(dashboard)/projects/page": {
           "moduleId": 37297,
